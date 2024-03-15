@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto; /* Alinha horizontalmente as coisas */
+    display: flex; /* Deixa flexivel */
+}
+
+.header{
+    border-bottom: 3px solid #32b9cd;
+}
+
+.titulo{
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.navbar{
+    width: 400px;
+    display: flex;
+    color: #e3b062;
+    justify-content: space-between; /* fazer espaçamento entre os itens */
+    list-style: none; /* Deixar a lista sem estilo */
+    align-items: center; /* Alinhar os itens */
+    ;
+}
+
+.header .container{
+    justify-content: space-between;
+}
